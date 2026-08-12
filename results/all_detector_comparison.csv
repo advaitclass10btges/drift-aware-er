@@ -1,0 +1,10 @@
+shift,detector,total_detections,false_alarms,post_drift_detections,first_post_drift_detection,detection_delay
+title,ADWIN,0,0,0,,
+title,Page-Hinkley,0,0,0,,
+title,Boundary-Aware,26,4,22,1375.0,0.0
+naming,ADWIN,0,0,0,,
+naming,Page-Hinkley,0,0,0,,
+naming,Boundary-Aware,6,1,5,1375.0,0.0
+missingness,ADWIN,0,0,0,,
+missingness,Page-Hinkley,0,0,0,,
+missingness,Boundary-Aware,5,1,4,1700.0,325.0

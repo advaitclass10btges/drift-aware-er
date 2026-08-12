@@ -1,0 +1,4 @@
+detector,total_detections,false_alarms,post_drift_detections,false_alarm_rate,first_post_drift_detection,detection_delay
+ADWIN,0,0,0,0.0,,
+Page-Hinkley,0,0,0,0.0,,
+Boundary-Aware,26,4,22,0.002909090909090909,1375.0,0.0

@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Python tooling
+.pytest_cache/
+.mypy_cache/
+
+# Secrets
+.env
+*.env
+
+# Logs
+*.log
+
+# External dependency
+deepmatcher/
+
+# Python package metadata
+drift_aware_er.egg-info/
+
+# Trained models
+models/*.pkl
+
+# Raw datasets
+data/raw/**/*.zip
+data/raw/**/*.csv

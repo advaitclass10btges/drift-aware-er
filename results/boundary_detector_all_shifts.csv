@@ -1,0 +1,4 @@
+shift,stream_size,true_drift,calibration_threshold,total_detections,false_alarms,post_drift_detections,false_alarm_rate,first_post_drift_detection,detection_delay
+title,2293,1375,1.9370300260546003,26,4,22,0.15384615384615385,1375,0
+naming,2293,1375,1.9370300260546005,6,1,5,0.16666666666666666,1375,0
+missingness,2293,1375,1.9370300260546005,5,1,4,0.2,1700,325

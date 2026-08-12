@@ -1,0 +1,10 @@
+shift,detector,total_detections,false_alarms,post_drift_detections,first_post_drift_detection,detection_delay,stable_windows,false_alarm_rate,detected
+title,ADWIN,0,0,0,,,52,0.0,False
+title,Page-Hinkley,0,0,0,,,52,0.0,False
+title,Boundary-Aware,26,4,22,1375.0,0.0,52,0.07692307692307693,True
+naming,ADWIN,0,0,0,,,52,0.0,False
+naming,Page-Hinkley,0,0,0,,,52,0.0,False
+naming,Boundary-Aware,6,1,5,1375.0,0.0,52,0.019230769230769232,True
+missingness,ADWIN,0,0,0,,,52,0.0,False
+missingness,Page-Hinkley,0,0,0,,,52,0.0,False
+missingness,Boundary-Aware,5,1,4,1700.0,325.0,52,0.019230769230769232,True
