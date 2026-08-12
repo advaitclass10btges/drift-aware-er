@@ -89,7 +89,7 @@ results = []
 for threshold in THRESHOLDS:
 
     print("\n" + "-" * 70)
-    print("Testing detector threshold:", threshold)
+    print(f"Testing boundary-mass threshold: {threshold}")
 
     detections = detect(
         scores,
