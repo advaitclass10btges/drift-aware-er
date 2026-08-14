@@ -1,0 +1,6 @@
+dataset,drift_type,severity,detected,delay,false_alarm_rate,detections
+Amazon-Google,score_compression,0.95,True,375,0.019230769230769232,5
+Amazon-Google,score_compression,0.9,True,325,0.019230769230769232,7
+Amazon-Google,score_compression,0.85,True,325,0.019230769230769232,11
+Amazon-Google,score_compression,0.8,True,325,0.019230769230769232,13
+Amazon-Google,score_compression,0.75,True,275,0.019230769230769232,18

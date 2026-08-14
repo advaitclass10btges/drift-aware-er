@@ -253,3 +253,66 @@ The repository provides:
 
 
 All statistical experiments can be reproduced from the provided environment.
+
+---
+
+# Boundary Instability Hypothesis
+
+## Motivation
+
+Entity resolution systems make decisions through confidence
+thresholds. Therefore, model degradation does not necessarily
+appear as a large global shift in score statistics.
+
+Instead, degradation can manifest as increased uncertainty
+around the decision boundary.
+
+We define decision-boundary instability as the increase in
+probability mass near the matching threshold.
+
+## Boundary Mass
+
+For confidence scores s:
+
+B(t) = P(|s - τ| < ε)
+
+where:
+
+- s represents entity matching confidence,
+- τ represents the decision threshold,
+- ε represents the boundary neighbourhood width.
+
+A rising boundary mass indicates that more candidate pairs
+are becoming ambiguous.
+
+## Multivariate Boundary-Aware Detection
+
+The detector represents each score window using:
+
+1. Mean score
+2. Score variance
+3. Boundary mass
+4. Score entropy
+
+The detector compares the current window representation
+against a stable reference distribution using standardized
+distance.
+
+This allows detection of drift caused by changes in
+decision ambiguity rather than only global score movement.
+
+## Real Dataset Validation
+
+The Amazon-Google entity resolution benchmark was used to
+evaluate whether boundary instability exists in real-world
+matching scenarios.
+
+Analysis showed that ambiguous decisions concentrate in
+high-confidence regions where:
+
+- entropy increases,
+- boundary mass increases,
+- score distributions become less separable.
+
+This supports the hypothesis that entity resolution degradation
+is closely related to decision-boundary instability.
