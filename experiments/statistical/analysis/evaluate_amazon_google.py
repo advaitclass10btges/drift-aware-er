@@ -2,6 +2,18 @@ import os
 import numpy as np
 import pandas as pd
 
+"""
+Controlled robustness evaluation on the Amazon-Google
+entity resolution benchmark.
+
+The experiment applies score-distribution degradation
+(score compression) after a fixed drift point and evaluates
+whether the boundary-aware detector identifies the resulting
+decision-boundary instability.
+
+This experiment is separate from natural boundary analysis.
+"""
+
 
 from src.drift.boundary_detector import (
     calibrate_detector,
