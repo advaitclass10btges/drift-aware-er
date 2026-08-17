@@ -1,0 +1,6 @@
+dataset,drift_type,severity,detected,delay,false_alarm_rate,detections
+DBLP-Scholar,score_compression,0.95,True,93,0.01834862385321101,11
+DBLP-Scholar,score_compression,0.9,True,18,0.045871559633027525,45
+DBLP-Scholar,score_compression,0.85,True,18,0.05504587155963303,50
+DBLP-Scholar,score_compression,0.8,True,18,0.05504587155963303,50
+DBLP-Scholar,score_compression,0.75,True,18,0.05504587155963303,50

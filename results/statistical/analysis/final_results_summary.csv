@@ -1,0 +1,14 @@
+dataset,shift,detector,severity,detection_rate,mean_delay,false_alarm_rate,decision_flip_rate
+Synthetic,missingness,Boundary-Aware,-,86.67,209.71,7.79,-
+Synthetic,naming,Boundary-Aware,-,85.67,210.7,7.01,-
+Synthetic,title,Boundary-Aware,-,98.67,64.7,7.58,-
+Amazon-Google,score_compression,Boundary-Aware,0.95,100.0,375.0,1.92,-
+Amazon-Google,score_compression,Boundary-Aware,0.9,100.0,325.0,1.92,-
+Amazon-Google,score_compression,Boundary-Aware,0.85,100.0,325.0,1.92,-
+Amazon-Google,score_compression,Boundary-Aware,0.8,100.0,325.0,1.92,-
+Amazon-Google,score_compression,Boundary-Aware,0.75,100.0,275.0,1.92,-
+DBLP-Scholar,score_compression,Boundary-Aware,0.95,100.0,93.0,1.83,11.38
+DBLP-Scholar,score_compression,Boundary-Aware,0.9,100.0,18.0,4.59,19.27
+DBLP-Scholar,score_compression,Boundary-Aware,0.85,100.0,18.0,5.5,25.5
+DBLP-Scholar,score_compression,Boundary-Aware,0.8,100.0,18.0,5.5,27.74
+DBLP-Scholar,score_compression,Boundary-Aware,0.75,100.0,18.0,5.5,28.49
