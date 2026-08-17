@@ -1,0 +1,7 @@
+shift,baseline,boundary_detection_rate,baseline_detection_rate,absolute_gain_percentage_points,relative_gain_percent,baseline_failed
+missingness,ADWIN,86.67,0.0,86.67,,True
+missingness,Page-Hinkley,86.67,0.0,86.67,,True
+naming,ADWIN,85.67,0.0,85.67,,True
+naming,Page-Hinkley,85.67,0.0,85.67,,True
+title,ADWIN,98.67,4.67,94.0,2014.2857142857174,False
+title,Page-Hinkley,98.67,0.0,98.67,,True

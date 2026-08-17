@@ -24,3 +24,26 @@ def load_amazon_google(base_path):
     test = pd.read_csv(base_path / "test.csv")
 
     return table_a, table_b, train, valid, test
+
+def load_dblp_scholar(base_path):
+    """
+    Load DBLP-Scholar ER benchmark.
+
+    Returns:
+        table_a
+        table_b
+        train_pairs
+        valid_pairs
+        test_pairs
+    """
+
+    base_path = Path(base_path)
+
+    table_a = pd.read_csv(base_path / "tableA.csv")
+    table_b = pd.read_csv(base_path / "tableB.csv")
+
+    train = pd.read_csv(base_path / "train.csv")
+    valid = pd.read_csv(base_path / "valid.csv")
+    test = pd.read_csv(base_path / "test.csv")
+
+    return table_a, table_b, train, valid, test
